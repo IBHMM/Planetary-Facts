@@ -1,0 +1,44 @@
+.bb{
+  background-image: url(./planets/images/background-stars.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background: #202020ce;
+  z-index: 1000000000;
+
+  background-size: contain;
+}
+
+@keyframes menuOpen {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: 360px; 
+    opacity: 1;
+  }
+}
+
+@keyframes menuClose {
+  from {
+    height: 360px; 
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+.menu {
+  overflow: hidden; 
+  height: 0; 
+}
+
+.menu.open {
+  animation: menuOpen 0.6s forwards; 
+}
+
+.menu.closed {
+  animation: menuClose 0.6s forwards; 
+}
