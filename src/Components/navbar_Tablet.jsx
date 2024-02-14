@@ -10,14 +10,14 @@ export function Tablet() {
             </section>
 
             <section className='flex items-center justify-center hover:text-[#38384F] my-2  gap-10 max-[600px]:gap-6'>
-                <a href="http://localhost:5173/mercury" className='text-white hover:text-[#4c1f69]'>Mercury</a>
-                <a href="http://localhost:5173/venus" className='text-white hover:text-[#4c1f69]'>Venus</a>
-                <a href=" http://localhost:5173/earth" className='text-white hover:text-[#4c1f69]'>Earth</a>
-                <a href="http://localhost:5173/mars" className='text-white hover:text-[#4c1f69]'>Mars</a>
-                <a href="http://localhost:5173/jupiter" className='text-white hover:text-[#4c1f69]'>Jupiter</a>
-                <a href="http://localhost:5173/saturn" className='text-white hover:text-[#4c1f69]'>Saturn</a>
-                <a href="http://localhost:5173/uranus" className='text-white hover:text-[#4c1f69]'>Uranus</a>
-                <a href="http://localhost:5173/neptune" className='text-white hover:text-[#4c1f69]'>Neptune</a>
+                <a href="http://localhost:5173/mercury" className='text-[#419EBB] hover:text-[#fff]'>Mercury</a>
+                <a href="http://localhost:5173/venus" className='text-[#EDA249] hover:text-[#fff]'>Venus</a>
+                <a href=" http://localhost:5173/earth" className='text-[#6f2ed6] hover:text-[#fff]'>Earth</a>
+                <a href="http://localhost:5173/mars" className='text-[#D14C32] hover:text-[#fff]'>Mars</a>
+                <a href="http://localhost:5173/jupiter" className='text-[#D83A34] hover:text-[#fff]'>Jupiter</a>
+                <a href="http://localhost:5173/saturn" className='text-[#CD5120] hover:text-[#fff]'>Saturn</a>
+                <a href="http://localhost:5173/uranus" className='text-[#1ec2a4] hover:text-[#fff]'>Uranus</a>
+                <a href="http://localhost:5173/neptune" className='text-[#2d68f0] hover:text-[#fff]'>Neptune</a>
             </section>
 
         </nav>

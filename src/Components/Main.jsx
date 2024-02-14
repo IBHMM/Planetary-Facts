@@ -27,7 +27,7 @@ export function Main({data}) {
                     <p className="text-[80px]">
                         {data.name}
                     </p>
-                    <p className="w-full max-[501px]:w-full min-[501px]:max-w-[350px] h-[170px] text-[#838391] max-[501px]:h-[145px]">
+                    <p className="w-full max-[501px]:w-full min-[501px]:max-w-[350px] h-[180px] text-[#838391] max-[501px]:h-[175px]">
                         {
                             (index == 0) ? data.overview.content : (index == 2) ? data.structure.content : data.surface.content 
                         }
@@ -65,4 +65,5 @@ export function Main({data}) {
 
         </main>
     )
+    
 }

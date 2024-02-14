@@ -1,11 +1,6 @@
-.bb{
+#stars{
   background-image: url(./planets/images/background-stars.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background: #202020ce;
-  z-index: 1000000000;
-
-  background-size: contain;
+  background-repeat: repeat;
 }
 
 @keyframes menuOpen {

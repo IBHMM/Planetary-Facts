@@ -27,26 +27,26 @@ function App() {
   }, []);
 
   if(data) return (
-    <PlanetContext.Provider value={data}>
-      <main className='bb flex flex-col items-center bg-[#070724] font-[Antonio] relative min-[820px]:gap-[100px] '>
-        <BrowserRouter>
-          <Routes>
-            <Route
-              index
-              element={<Earth />} 
-            />
-            <Route path='/earth' element={<Earth />} />
-            <Route path='/mars' element={<Mars />} />
-            <Route path='/mercury' element={<Mercury />} />
-            <Route path='/venus' element={<Venus />} />
-            <Route path='/jupiter' element={<Jupiter />} />
-            <Route path='/saturn' element={<Saturn />} />
-            <Route path='/uranus' element={<Uranus />} />
-            <Route path='/neptune' element={<Neptune />} />
-          </Routes>
-        </BrowserRouter>
-      </main>
-    </PlanetContext.Provider>
+      <PlanetContext.Provider value={data}>
+        <main className='flex flex-col items-center bg-[#070724] font-[Antonio] relative min-[820px]:gap-[100px]' id='stars'>
+          <BrowserRouter>
+            <Routes>
+              <Route
+                index
+                element={<Earth />} 
+              />
+              <Route path='/earth' element={<Earth />} />
+              <Route path='/mars' element={<Mars />} />
+              <Route path='/mercury' element={<Mercury />} />
+              <Route path='/venus' element={<Venus />} />
+              <Route path='/jupiter' element={<Jupiter />} />
+              <Route path='/saturn' element={<Saturn />} />
+              <Route path='/uranus' element={<Uranus />} />
+              <Route path='/neptune' element={<Neptune />} />
+            </Routes>
+          </BrowserRouter>
+        </main>
+      </PlanetContext.Provider>
   );
 }
 
